@@ -20,7 +20,7 @@ my_dataframe = session.table("smoothies.public.fruit_options").select(col('FRUIT
 # st.stop
 
 # Convert the snowpoark dataframe to a pandas datafame so we use the LOC function
-pd.f=mydataframe.to_pandas()
+pd.df=my_dataframe.to_pandas()
 st.dataframe(pd.df)
 st.stop()
 
